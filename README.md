@@ -20,7 +20,7 @@ limitations under the License.
 
 # array2buffer
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Allocate a [buffer][@stdlib/buffer/ctor] using an octet array.
 
@@ -123,10 +123,10 @@ console.log( buf.toString() );
 
 ## See Also
 
--   [`@stdlib/buffer/ctor`][@stdlib/buffer/ctor]: buffer.
--   [`@stdlib/buffer/from-arraybuffer`][@stdlib/buffer/from-arraybuffer]: allocate a buffer from an ArrayBuffer.
--   [`@stdlib/buffer/from-buffer`][@stdlib/buffer/from-buffer]: copy buffer data to a new Buffer instance.
--   [`@stdlib/buffer/from-string`][@stdlib/buffer/from-string]: allocate a buffer containing a provided string.
+-   <span class="package-name">[`@stdlib/buffer/ctor`][@stdlib/buffer/ctor]</span><span class="delimiter">: </span><span class="description">Buffer.</span>
+-   <span class="package-name">[`@stdlib/buffer/from-arraybuffer`][@stdlib/buffer/from-arraybuffer]</span><span class="delimiter">: </span><span class="description">allocate a buffer from an ArrayBuffer.</span>
+-   <span class="package-name">[`@stdlib/buffer/from-buffer`][@stdlib/buffer/from-buffer]</span><span class="delimiter">: </span><span class="description">copy buffer data to a new Buffer instance.</span>
+-   <span class="package-name">[`@stdlib/buffer/from-string`][@stdlib/buffer/from-string]</span><span class="delimiter">: </span><span class="description">allocate a buffer containing a provided string.</span>
 
 </section>
 
@@ -177,8 +177,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/buffer-from-array/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/buffer-from-array?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/buffer-from-array.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/buffer-from-array/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
