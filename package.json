@@ -1,0 +1,37 @@
+{
+  "name": "@stdlib/buffer-from-array",
+  "version": "0.0.0",
+  "description": "Allocate a buffer using an octet array.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/buffer-from-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "data",
+    "structure",
+    "buffer",
+    "buf",
+    "binary",
+    "octets",
+    "octet",
+    "array",
+    "typed",
+    "typed-array",
+    "allocate",
+    "uint8"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
