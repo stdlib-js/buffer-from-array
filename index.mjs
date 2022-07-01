@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import r from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";var i=r(t.from),n=e,o=s,d=t;var m=e,a=s,l=t;var f=i?function(r){if(!n(r))throw new TypeError(o("invalid argument. Must provide an array-like object. Value: `%s`.",r));return d.from(r)}:function(r){if(!m(r))throw new TypeError(a("invalid argument. Must provide an array-like object. Value: `%s`.",r));return new l(r)};export{f as default};
-//# sourceMappingURL=index.mjs.map
