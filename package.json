@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/buffer-from-array",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Allocate a buffer using an octet array.",
   "license": "Apache-2.0",
   "author": {
@@ -37,16 +37,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-collection": "^0.0.8",
-    "@stdlib/assert-is-function": "^0.0.8",
-    "@stdlib/buffer-ctor": "^0.0.7",
-    "@stdlib/string-format": "^0.0.3",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/assert-is-collection": "^0.1.0",
+    "@stdlib/assert-is-function": "^0.1.0",
+    "@stdlib/buffer-ctor": "^0.1.0",
+    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-uint8": "^0.0.7",
-    "@stdlib/assert-is-buffer": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/array-uint8": "^0.1.0",
+    "@stdlib/assert-is-buffer": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.0.7",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
