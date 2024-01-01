@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,37 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="node"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Buffer } from 'buffer';
+import { Collection } from '@stdlib/types/array';
 
 /**
-* Allocate a buffer using an octet array.
+* Allocates a buffer using an octet array.
 *
-* @module @stdlib/buffer-from-array
+* @param arr - octet array
+* @returns new `Buffer` instance
 *
 * @example
-* var array2buffer = require( '@stdlib/buffer-from-array' );
+* var fromArray = require( `@stdlib/buffer/from-array` );
 *
-* var buf = array2buffer( [ 1, 2, 3, 4 ] );
+* var buf = fromArray( [ 1, 2, 3, 4 ] );
 * // returns <Buffer>
 */
-
-// MODULES //
-
-var hasFrom = require( './has_from.js' );
-var main = require( './main.js' );
-var polyfill = require( './polyfill.js' );
-
-
-// MAIN //
-
-var array2buffer;
-if ( hasFrom ) {
-	array2buffer = main;
-} else {
-	array2buffer = polyfill;
-}
+declare function fromArray( arr: Collection<number> ): Buffer;
 
 
 // EXPORTS //
 
-module.exports = array2buffer;
+export = fromArray;
