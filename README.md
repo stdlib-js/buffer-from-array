@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/buffer-from-array/tags). For example,
+
+```javascript
 import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@v0.2.1-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ var buf = array2buffer( [ 1, 2, 3, 4 ] );
 <body>
 <script type="module">
 
-import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@v0.2.1-esm/index.mjs';
+import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@esm/index.mjs';
 
 var octets;
 var buf;
