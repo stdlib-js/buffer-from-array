@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@esm/index.mjs';
+import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@v0.2.2-esm/index.mjs';
 ```
 
 #### array2buffer( arr )
@@ -90,7 +90,7 @@ var buf = array2buffer( [ 1, 2, 3, 4 ] );
 <body>
 <script type="module">
 
-import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@esm/index.mjs';
+import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@v0.2.2-esm/index.mjs';
 
 var octets;
 var buf;
