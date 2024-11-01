@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,23 +16,19 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="node"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var isCollection = require( '@stdlib/assert-is-collection' );
-var format = require( '@stdlib/error-tools-fmtprodmsg' );
-var Buffer = require( '@stdlib/buffer-ctor' );
-
-
-// MAIN //
+import { Buffer } from 'buffer';
+import { Collection } from '@stdlib/types/array';
 
 /**
 * Allocates a buffer using an octet array.
 *
-* @param {Collection} arr - octet array
-* @throws {TypeError} must provide an array-like object
-* @returns {Buffer} new `Buffer` instance
+* @param arr - octet array
+* @returns new `Buffer` instance
 *
 * @example
 * var fromArray = require( '@stdlib/buffer-from-array' );
@@ -40,14 +36,9 @@ var Buffer = require( '@stdlib/buffer-ctor' );
 * var buf = fromArray( [ 1, 2, 3, 4 ] );
 * // returns <Buffer>
 */
-function fromArray( arr ) {
-	if ( !isCollection( arr ) ) {
-		throw new TypeError( format( '0GJ2u', arr ) );
-	}
-	return Buffer.from( arr );
-}
+declare function fromArray( arr: Collection<number> ): Buffer;
 
 
 // EXPORTS //
 
-module.exports = fromArray;
+export = fromArray;
