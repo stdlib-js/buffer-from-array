@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-04)
+## Unreleased (2026-01-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f4eb003`](https://github.com/stdlib-js/stdlib/commit/f4eb003101dc763c66363a1d52c013a3b3b7c3c7) - **bench:** refactor to use string interpolation in `buffer/from-array` [(#9553)](https://github.com/stdlib-js/stdlib/pull/9553) _(by Vishal Gaikwad)_
 -   [`546d714`](https://github.com/stdlib-js/stdlib/commit/546d71415bfaa6861cb8757741e1c465c7759590) - **docs:** fix example code and return annotations in TSDoc declarations _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   Vishal Gaikwad
 
 </section>
 
