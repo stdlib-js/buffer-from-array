@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@deno/mod.js';
+import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@v0.2.3-deno/mod.js';
 ```
 
 #### array2buffer( arr )
@@ -85,7 +85,7 @@ var buf = array2buffer( [ 1, 2, 3, 4 ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@deno/mod.js';
+import array2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-array@v0.2.3-deno/mod.js';
 
 var octets;
 var buf;
